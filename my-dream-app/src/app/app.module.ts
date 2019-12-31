@@ -27,7 +27,7 @@ import { TokenInterceptorService } from "./token-interceptor.service";
     HttpClientModule
   ],
   providers: [AuthGuard,
-    { provide: HTTP_INTERCEPTORS, useClass: TokenInterceptorService, multi: true }
+    { provide: HTTP_INTERCEPTORS, useClass: TokenInterceptorService, multi: true/*This says that TokenInterceptorService can be instantiated multiple times, which makes sense.  I don't it to be a singleton and when it sets a token in the authorizaton header for one user, it does for all users.  Each user has to have a unique token.*/ }
   ],
   bootstrap: [AppComponent]
 })
