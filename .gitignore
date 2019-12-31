@@ -1,0 +1,15 @@
+myMongoDbInstructions.txt
+server/node_modules/
+server/package-lock.json
+my-dream-app/e2e/
+my-dream-app/node_modules/
+my-dream-app/.editorconfig
+my-dream-app/package-lock.json
+my-dream-app/README.md
+my-dream-app/tsconfig*
+my-dream-app/tslint.json
+my-dream-app/src/environments/
+my-dream-app/src/favicon.ico
+my-dream-app/src/polyfills.ts
+my-dream-app/src/styles.css
+my-dream-app/src/test.ts
