@@ -1,0 +1,1 @@
+This isn't a completely functional project.  I used Angular framework and other libraries to build this, so obviously I didn't add node_modules folders or any configuration files besides package.json so people can see the version of the each dependency.
